@@ -22,7 +22,7 @@ this is what is needed:
       libllvm18 llvm-18-dev libclang-18-dev python3 zlib1g-dev libelf-dev libfl-dev python3-setuptools \
       liblzma-dev libdebuginfod-dev arping netperf iperf libpolly-18-dev
 
-Then you cana build it, again, for Ubuntu:
+Then you can build it, again, for Ubuntu:
 
     > git clone https://github.com/iovisor/bcc.git
     > mkdir bcc/build; cd bcc/build

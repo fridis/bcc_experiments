@@ -19,7 +19,7 @@
 
 const std::string BPF_PROGRAM = R"(
 int on_sys_clone(void *ctx) {
-  bpf_trace_printk("Hello, World!!1!!1elf!3 Here I did a sys_clone call!\n");
+  bpf_trace_printk("Hello, World! Here I did a sys_clone call!\n");
   return 0;
 }
 )";
